@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2021, The AppImage project
+# This file is distributed under the same license as the AppImage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AppImage \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-26 18:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/packaging-guide/optional/appstream.rst:4
+msgid "AppStream metadata"
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:6
+msgid ""
+"AppStream is a cross-distribution effort for providing metadata for "
+"software in the (Linux) ecosystem. It provides a convenient way to get "
+"information about not installed software, and is one of the building "
+"blocks for software centers."
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:14
+msgid "Contents"
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:17
+msgid "Why should I include AppStream metadata in my AppImage?"
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:19
+msgid ""
+"Desktop environments, file managers, AppImage catalogs, software centers,"
+" and app stores can use metadata about the application from inside the "
+"AppImage to get a description, URLs, screenshots, and other information "
+"that describes the application. This optional metadata travels inside the"
+" AppImage."
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:21
+msgid ""
+"So if you would like your application to show a nice screenshot in app "
+"centers, you should add an AppStream metainfo file to your AppImage. "
+"AppStream is a format that exists independently of AppImage and can be "
+"used in conjunction with other packaging formats as well. Many open "
+"source applications already come with AppStream metainfo files by "
+"default."
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:24
+msgid ""
+"More information on AppStream can be found on the `FreeDesktop.org pages "
+"<https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html"
+"#sect-Quickstart-DesktopApps>`__."
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:28
+msgid "Using the AppStream generator"
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:30
+msgid ""
+"An easy way to generate an AppStream metainfo file is to use the online "
+"generator at http://output.jsbin.com/qoqukof."
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:34
+msgid "Embedding the AppStream metadata"
+msgstr ""
+
+#: ../../source/packaging-guide/optional/appstream.rst:36
+msgid ""
+"Once you have generated a suitable AppStream metainfo file, place it into"
+" :code:`usr/share/metainfo/myapp.appdata.xml` in your AppDir, and "
+"generate an AppImage from it. It is generally a good idea to check "
+"AppStream metainfo files for errors using the :code:`appstreamcli` and/or"
+" :code:`appstream-util` command line tools. :code:`appimagetool` will "
+"automatically attempt to validate the AppStream metainfo file if "
+":code:`appstreamcli` and/or :code:`appstream-util` are available on the "
+":code:`$PATH`."
+msgstr ""
+

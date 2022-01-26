@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2021, The AppImage project
+# This file is distributed under the same license as the AppImage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AppImage \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-26 18:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:4
+msgid "I get some errors related to something called \"FUSE\""
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:6
+msgid ""
+"AppImages require a Linux technology called *Filesystem in Userspace* (or"
+" short *FUSE*). The majority of systems ships with a working FUSE setup. "
+"However, sometimes, it doesn't quite work. This section explains a few "
+"solutions that fix the most frequently reported problems."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:11
+msgid "Contents"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:14
+msgid "The AppImage tells me it needs FUSE to run"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:16
+msgid "Sometimes, an AppImage writes the following message to the console:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:27
+msgid ""
+"In this case, FUSE is not properly set up on your system. You will have "
+"to :ref:`install FUSE <ref-install-fuse>` in order to fix the problem."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:30
+msgid ""
+"When trying to run AppImages which weren't built specifically for your "
+"platform, you might see this message as well, even if it doesn't occur "
+"while using AppImages built for your platform. Please see :ref:`these "
+"instructions <ref-warning-fuse-cross-architecture>` on how to fix the "
+"issue."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:36
+msgid "How to install FUSE"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:38
+msgid ""
+"Most Linux distributions come with a functional FUSE setup. However, if "
+"it is not working for you, you may have to install and configure FUSE "
+"yourself."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:40
+msgid ""
+"The process of installing FUSE highly differs from distribution to "
+"distribution. This section shows how to install FUSE on the most common "
+"distributions."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:43
+msgid ""
+"If your distribution is not listed, please ask the distribution "
+"developers for instructions."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:47
+msgid "Setting up FUSE on Ubuntu, Debian and their derivatives"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:49
+#: ../../source/user-guide/troubleshooting/fuse.rst:70
+msgid "Install the required package::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:53
+msgid ""
+"Now, FUSE should be working. On some older distributions, you will have "
+"to run some additional configuration steps:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:55
+msgid "Make sure the FUSE kernel module is loaded::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:59
+msgid ""
+"Then, add the required group (should be created by the install command, "
+"if this is the case, this call *will* fail), and add your own user "
+"account to this group::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/notes/user-group-modifications.rst:2
+msgid ""
+"After adding users to groups, these users must logout and login again for"
+" the change to take effect!"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:68
+msgid "Setting up FUSE on openSUSE"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:74
+msgid "FUSE should now be working."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:78
+msgid "Setting up FUSE on CentOS and RHEL"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:81
+msgid "The following instructions may be out of date. Contributions welcome!"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:83
+msgid "Install FUSE from EPEL::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:87
+msgid ""
+"Now, add yourself to the related group in order to authorize yourself for"
+" using FUSE::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:95
+msgid ""
+"If you are on a 64-bit system and want to run 32-bit AppImages (e.g., "
+"``x86_64``/``amd64`` to ``i386``, or ``arm64`` to ``armhf``), you will "
+"have to install the FUSE runtime libraries for those architectures.::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:102
+msgid "Setting up FUSE on Clear Linux OS"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:104
+msgid ""
+"On Clear Linux OS, FUSE *should* be enabled by default. However, if you "
+"see the error message mentioned before nevertheless, you can try the "
+"following trick:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:114
+msgid ""
+"This bug was also reported on `reported on GitHub "
+"<https://github.com/clearlinux/distribution/issues/273>`__."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:118
+msgid "Setting up FUSE on Chromium OS, Chrome OS, Crostini or other derivatives"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:120
+msgid ""
+"FUSE is not operational out of the box. However, starting with release "
+"73, it's fairly easy to install it:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:128
+msgid "Setting up FUSE on Arch Linux"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:130
+msgid ""
+"On Arch Linux, FUSE should work already. A common issue, however, is that"
+" the ``fusermount`` binary's permissions may be incorrect. Fortunately, "
+"there's an easy fix:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:144
+msgid "Fallback (if FUSE can't be made working)"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:146
+msgid ""
+"If you do not want to (or cannot) set up FUSE, there are fallback "
+"solutions. Depending on the AppImage type, you can either mount the "
+"AppImage, or extract it and run the contents."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:152
+msgid "Extract and run type 2 AppImages"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:154
+msgid ""
+"Most AppImages nowadays are type 2 AppImages. The easiest way to run such"
+" an AppImage, if FUSE is not available, is to extract it and then run its"
+" contents."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:157
+msgid ""
+"Extracting an AppImage to run its contents is pretty expensive. It should"
+" only be done if you have no other options left."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:160
+msgid ""
+"The AppImage runtime has a built-in feature we call \"extract-and-run\". "
+"It extracts the AppImage, runs the contents, waits until the app closes, "
+"and then cleans up the files again:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:177
+msgid ""
+"In case you have a very old AppImage (i.e., it uses a runtime from the "
+"time before \"extract-and-run\" was implemented), you can extract the "
+"AppImage manually:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:190
+msgid "Mount or extract type 1 AppImages"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:192
+msgid ""
+"If the process described in the :ref:`previous section <ref-extract-and-"
+"run-type-2>` does not work, you likely have a type 1 AppImage."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:194
+msgid ""
+"Type 1 AppImages are regular ISO9660 files. They can therefore be *loop-"
+"mounted*. Note that you need ``root`` permissions to do so."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:204
+msgid ""
+"You can alternatively extract the AppImage, either using `AppImageExtract"
+" <https://github.com/AppImage/AppImageKit/releases/tag/6>`__ or using an "
+"extraction tool which supports ISO9660 images (e.g., ``bsdtar``):"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:220
+msgid "FUSE and Docker"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:222
+msgid ""
+"Most Docker installations do not permit the use FUSE inside containers "
+"for security reasons. Instead, you can extract and run AppImages as "
+"described in the :ref:`previous section <ref-fuse-fallback>`."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting/fuse.rst:226
+msgid ""
+"There's a lot of advice on the internet that follows the scheme, \"just "
+"add the arguments ``--cap-add SYS_ADMIN --cap-add MKNOD --device "
+"/dev/fuse:mrw`` and it will work\". It is, however, insecure to do so. "
+"There's a reason why Docker doesn't support FUSE by default."
+msgstr ""
+
